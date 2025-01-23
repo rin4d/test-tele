@@ -1,5 +1,5 @@
 function sendCommand(command) {
-    const url = `http://172.24.1.1:8080/cgi-bin/do.sh?key=${command}`;
+    const url = `http://172.24.1.2:8080/cgi-bin/do.sh?key=${command}`;
 
     fetch(url, {
         method: 'GET', // Envoie une requête GET
