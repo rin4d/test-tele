@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Télécommande</title>
+</head>
+<body>
+  <h1>Test des Boutons</h1>
+  
+  <!-- Boutons -->
+  <div><button onclick="sendCommand('volup')">Augmenter le Volume</button>
+  <button onclick="sendCommand('voldown')">Baisser le volume</button>
+  <button onclick="sendCommand('mute')">MUTE</button>
+</div>
+<br>
+  <div><button onclick="sendCommand('chanup')">Chaîne Suivante</button>
+  <button onclick="sendCommand('chandown')">Chaîne Suivante</button></div>
+  <br>
+
+  <div>
+  <button onclick="sendCommand('up')">HAUT</button><br>
+  <button onclick="sendCommand('left')">GAUCHE</button>
+  <button onclick="sendCommand('right')">DOITE</button><br>
+  <button onclick="sendCommand('down')">BAS</button>
+</div>
+<br>
+<div>
+  <button onclick="sendCommand('home')">HOME</button>
+  <button onclick="sendCommand('back')">BACK</button>
+  <button onclick="sendCommand('enter')">ENTRER</button>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
